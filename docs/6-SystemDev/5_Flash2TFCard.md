@@ -27,7 +27,7 @@ sidebar_position: 7
 
 ### 1.2 系统选择
 
-访问 [/docs/DshanPi-A1/QuickStart/ResourceAcquisition](/docs/DshanPi-A1/QuickStart/ResourceAcquisition) 页面选择对应的系统镜像，请提前下载下来，并解压。
+访问 [/docs/QuickStart/ResourceAcquisition](/docs/QuickStart/ResourceAcquisition) 页面选择对应的系统镜像，请提前下载下来，并解压。
 
 ![image-20251225155402413](./images/image-20251225155402413.png)
 
