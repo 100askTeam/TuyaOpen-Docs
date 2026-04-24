@@ -20,7 +20,7 @@ const config = {
   },
 
   url: 'https://tuyaopen.100ask.net',
-  // Set the /<baseUrl>/ pathname under which your site is served
+  // Set the /<baseUrl>/ pathname under which your site is sent
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
@@ -53,6 +53,8 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        blog: false,
+        sitemap: false,
       }),
     ],
   ],
@@ -63,13 +65,18 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       colorMode: {
-        respectPrefersColorScheme: true,
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
       },
       docs: {
         sidebar: {
           autoCollapseCategories: true,
           hideable: true,
         },
+      },
+      mermaid: {
+        theme: { light: 'neutral', dark: 'dark' },
       },
       navbar: {
         title: 'DshanPi',
@@ -100,13 +107,6 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
-
-  // Add the Mermaid plugin and enable it in markdown
-  markdown: {
-    mermaid: true,
-  },
-
-  themes: ['@docusaurus/theme-mermaid'],
 
   plugins: [
     [
