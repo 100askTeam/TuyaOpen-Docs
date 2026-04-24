@@ -14,8 +14,7 @@ sidebar_position: 1
 
 ## 0.获取AI Key
 
-- 领取授权码方式1：[创建产品时领取](https://developer.tuya.com/cn/docs/iot-device-dev/application-creation?id=Kbxw7ket3aujc#title-4-%E7%AC%AC%E4%BA%94%E6%AD%A5%EF%BC%9A%E9%A2%86%E5%8F%96%E6%8E%88%E6%9D%83%E7%A0%81)。
-- 领取授权码方式2：[start TuyaOpen github 领取](https://github.com/tuya/TuyaOpen/blob/master/apps/tuya.ai/README_zh.md)。
+- 领取授权码方式：https://platform.tuya.com/purchase/index?type=6
 
 ## 1.创建AI产品
 
